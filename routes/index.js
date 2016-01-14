@@ -17,7 +17,7 @@ router.post('/upload', function (req, res) {
 	console.log("in upload");
 	console.log("------------: ", req.param.displayImage);
 
-	res.render('index', { title: 'TRYING TO UPLOAD A FUCKING PICTURE' });
+	res.render('index', { title: '' });
 	
 });
 
